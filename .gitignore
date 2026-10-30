@@ -1,0 +1,14 @@
+.venv/
+.venv.lock
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+
+# Shell output the user redirected here while debugging.
+log.log
+
+# The notebook is machine-wide: it carries every project's investigation on
+# this host, including other people's work in flight. It goes to Drive, where
+# each replaced copy is kept under a dated folder, and not here.
+notebook/

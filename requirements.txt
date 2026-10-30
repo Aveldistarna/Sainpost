@@ -1,0 +1,8 @@
+# Sainpost dependencies. Deliberately tiny: the store is stdlib sqlite3,
+# so a fresh clone bootstraps in seconds and the record is readable by any
+# sqlite client if this server ever goes away.
+
+mcp<2
+
+# Tests: pytest tests -q
+pytest

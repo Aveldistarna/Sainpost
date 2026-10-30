@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sainpost": {
+      "command": "python",
+      "args": ["launch.py"],
+      "cwd": "."
+    }
+  }
+}
